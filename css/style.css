@@ -1,3 +1,8 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html,
 body {
   height: 100%;
@@ -15,6 +20,11 @@ body {
   );
 }
 
+.profile {
+  margin-top: 20px;
+  text-align: center;
+}
+
 .avatar {
   width: 100px;
   border-radius: 50%;
@@ -25,4 +35,18 @@ body {
 h1 {
   font-weight: 100;
   font-size: 24px;
+  margin-bottom: 2px;
+}
+
+h2 {
+  font-size: 16px;
+  font-style: italic;
+}
+
+.social img {
+  width: 40px;
+}
+
+.social a {
+  text-decoration: none;
 }
