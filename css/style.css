@@ -1,8 +1,28 @@
+html,
 body {
-  background-color: black;
+  height: 100%;
+  color: #909090;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(
+    180deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(19, 19, 20, 1) 50%,
+    rgba(50, 52, 52, 1) 100%
+  );
 }
 
 .avatar {
   width: 100px;
   border-radius: 50%;
+  border: 3px solid #909090;
+  box-shadow: 0 0 15px #909090;
+}
+
+h1 {
+  font-weight: 100;
+  font-size: 24px;
 }
