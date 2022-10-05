@@ -45,6 +45,8 @@ h2 {
 
 .social img {
   width: 40px;
+  background-color: white;
+  border-radius: 50%;
 }
 
 .social {
@@ -59,12 +61,14 @@ h2 {
 }
 
 .links-list li {
-  margin: 10px 20px;
+  margin: 15px 20px;
 }
 
 .links-list li a {
   display: block;
   background-color: white;
+  border: 2px solid #909090;
+  box-shadow: 0 0 10px #909090;
   padding: 15px 20px;
   border-radius: 10px;
   text-decoration: none;
